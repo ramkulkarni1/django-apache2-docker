@@ -6,7 +6,5 @@ services:
     container_name: django-apache2
     ports:
       - '8005:80'
-      - '3500:3500'
-      - '8006:81'
-    volumes: 
-      - $PWD/www:/var/www/html
+    volumes:
+      - ./www/:/var/www/html
