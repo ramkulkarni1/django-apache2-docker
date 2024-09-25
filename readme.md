@@ -5,7 +5,7 @@ This is a docker project to create a container with Python3, Django and Apache2.
 * docker-compose up
 
     Starts the container named django-apache2
-* Browse to http://localhost:8500
+* Browse to http://localhost:8005
 
     A sample employee list page is displayed.
 
